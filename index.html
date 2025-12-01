@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-container {
+    width: 460px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* Header */
+.profile-header {
+    text-align: center;
+    padding: 25px 20px 15px 20px;
+    background: linear-gradient(135deg, #4f8df7, #8ec5fc);
+    color: #fff;
+}
+
+.profile-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.header-info h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* About Me */
+.info {
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 5px;
+}
+
+.info p {
+    color: #3d003d;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Profile Details Sections */
+.profile-details {
+    padding: 10px 20px;
+    margin-top: 0;
+}
+
+.section {
+    margin-bottom: 18px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: #f0f4f8;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4f8df7;
+    padding-bottom: 5px;
+    color: #4f8df7;
+}
+
+/* Details */
+.detail {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #555;
+}
+
+.detail span {
+    font-weight: 600;
+    color: #333;
+    display: inline-block;
+    width: 140px;
+}
+
+/* Contact Links */
+a {
+    color: #4f8df7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+}
+
+/* Address Section */
+.detail p {
+    margin-top: 5px;
+    color: #555;
+    font-size: 14px;
+}
+
+</style>
+</head>
+<body>
+<div class="profile-container">
+
+    <div class="profile-header">
+        <img src="https://i.ibb.co/2365p2T5/IMG-20250919-232935.jpg" alt="Student Photo">
+        <div class="header-info">
+            <h1>CHUZA MAE B. SUMERA</h1>
+            <div class="subtitle">BSIT-2209 | Student</div>
+        </div>
+    </div>
+    
+    <div class="info" id="about">
+        <p>Hello! I'm Chuza, a student who enjoys learning web development and creating simple projects.</p>
+    </div>
+
+    <div class="profile-details">
+
+        <div class="section">
+            <h2>About Me</h2>
+            <div class="detail"><span>Status:</span> Single</div>
+            <div class="detail"><span>Birthday:</span> October 05, 2004</div>
+            <div class="detail"><span>Languages Spoken:</span> English, Tagalog, Waray</div>
+            <div class="detail"><span>Hobbies:</span> Watching Random Movies, Listening to Music, Playing Online Games</div>
+        </div>
+        
+        
+
+        <div class="section">
+            <h2>Contact Info</h2>
+            <div class="detail"><span>Phone:</span>09531578261</div>
+            <div class="detail"><span>Facebook:</span>Chuza Mae Sumera</div>
+            <div class="detail"><span>Instagram:</span>its.mimiiiee</div>
+            <div class="detail"><span>Twitter:</span>memetut05</div>
+            <div class="detail"><span>Email:</span>sumerachuzamae@gmail.com</div>
+            
+
+        <div class="section">
+            <h2>Address</h2>
+            <p>blk 23 lot3 Sec24 Pabahay ph3, brgy Muzon South, SJDM Bulacan</p>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
